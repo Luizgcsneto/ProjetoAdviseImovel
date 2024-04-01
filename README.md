@@ -11,8 +11,8 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 Install-Package Microsoft.EntityFrameworkCore.Design 
 
 No anquivo appsettings.json no Projeto Api.Imovel: atualizar na ConnectionStrings o seu servidor e o banco locais. 
-no arquivo Program.cs no Projeto Api.Imovel atualizar também a congiruação do servidor. 
-ir no menu Tools -> Nuget Packge Manager -> Packge Manager Console em Default Project colocar no arquivo de infra\Api.Infrastructure 
+no arquivo Program.cs no Projeto Api.Imovel atualizar também a configuração do servidor. 
+ir no menu Tools -> Nuget Package Manager -> Package Manager Console em Default Project colocar no arquivo de infra\Api.Infrastructure 
 Executar o comando Add-Migration NomeDaMigration -Context AppDbContext e verificando se deu tudo certo.
 Executar o comando  Update-Database -Context AppDbContext.
 depois disso setar o projeto de Api.Imovel para inicializar o projeto.
