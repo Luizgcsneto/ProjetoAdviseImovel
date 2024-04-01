@@ -2,7 +2,6 @@
 using Api.Entities.Entity.Corretor;
 using Api.Entities.Entity.ServiceResponse;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using System.Net;
 
 namespace Api.Imovel.Controllers
