@@ -15,7 +15,5 @@ namespace Api.Infrastructure.Configuration
         public DbSet<ProprietarioEntity> Proprietarios { get; set; }
         public DbSet<CorretorEntity> Corretores { get; set; }
 
-     
-
     }
 }
