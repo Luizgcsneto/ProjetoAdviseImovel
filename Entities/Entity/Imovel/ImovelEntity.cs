@@ -9,6 +9,7 @@ namespace Api.Entities.Entity.Imovel
         [Key]
         public int ImovelId { get; set; }
         public TipoImovel TipoImovel { get; set; }
+        public string Endereco { get; set; }
 
     }
 }
